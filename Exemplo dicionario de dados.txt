@@ -1,0 +1,16 @@
+Nome = *Nome de usuário = Nickname*
+	nome
+
+nome = [A-Z | a-z | 0-9 |'| ]
+
+
+
+
+Senha = *Senha deve conter pelo menos uma letra maiuscula, uma letra minuscula, um caracter especial um numero*
+
+	(numero | letra maiúscula | letra minúscula | caracter especial)
+
+numero = [0-9]
+letra maiúscula = [A-Z]
+letra minúscula = [a-z]
+caracter especial = [!|@|#|$|%|&|*]
