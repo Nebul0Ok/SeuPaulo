@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="PlantaçãoSeuPaulo" default="default" basedir=".">
-    <description>Builds, tests, and runs the project Calculadora.</description>
+    <description>Builds, tests, and runs the project PlantaçãoSeuPaulo.</description>
     <import file="nbproject/build-impl.xml"/>
    
     <target name="javadoc" description="gera javadoc">
@@ -20,7 +20,7 @@
             doctitle="Documentação">
             
             <classpath>
-                <pathelement path= "C:\Users\aluno\Downloads\PROJETO-BRUNO\PROJETO-BRUNO\ProjetoSeuPaulo\libs\junit-platform-console-standalone-1.9.2.jar"/>
+                <pathelement path= "C:\Users\ecoz\Desktop\SeuPaulo-main\codigo\ProjetoSeuPaulo\libs\junit-platform-console-standalone-1.9.2.jar"/>
             </classpath>
         
         </javadoc>
