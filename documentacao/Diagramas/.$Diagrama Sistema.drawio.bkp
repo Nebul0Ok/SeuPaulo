@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="4">
   <diagram id="liEGJvGUugNppEwG3qm9" name="Criação de Alarme">
-    <mxGraphModel dx="946" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="K67NveqVVI4hLh07FeCr-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K67NveqVVI4hLh07FeCr-5" target="K67NveqVVI4hLh07FeCr-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K67NveqVVI4hLh07FeCr-14" value="Data e hora para o alarme&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;+&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Nome do alarme&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-9" vertex="1" connectable="0">
+        <mxCell id="K67NveqVVI4hLh07FeCr-14" value="&lt;span style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;Data&lt;/span&gt;&lt;div style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;+&lt;/div&gt;&lt;div style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;Nome do alarme&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-9" vertex="1" connectable="0">
           <mxGeometry x="0.0745" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -24,7 +24,7 @@
         <mxCell id="K67NveqVVI4hLh07FeCr-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K67NveqVVI4hLh07FeCr-2" target="K67NveqVVI4hLh07FeCr-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K67NveqVVI4hLh07FeCr-7" value="Data e hora para o alarme&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Nome do alarme&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="K67NveqVVI4hLh07FeCr-6" vertex="1" connectable="0">
+        <mxCell id="K67NveqVVI4hLh07FeCr-7" value="Data&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Nome do alarme&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="K67NveqVVI4hLh07FeCr-6" vertex="1" connectable="0">
           <mxGeometry x="-0.0082" y="3" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -32,18 +32,18 @@
         <mxCell id="K67NveqVVI4hLh07FeCr-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K67NveqVVI4hLh07FeCr-8" target="K67NveqVVI4hLh07FeCr-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K67NveqVVI4hLh07FeCr-18" value="Data e hora para o alarme&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;+&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Nome do alarme&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;+&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Validação&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-13" vertex="1" connectable="0">
+        <mxCell id="K67NveqVVI4hLh07FeCr-18" value="&lt;span style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;Data&lt;/span&gt;&lt;div style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;+&lt;/div&gt;&lt;div style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;Nome do alarme&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-13" vertex="1" connectable="0">
           <mxGeometry x="-0.0917" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K67NveqVVI4hLh07FeCr-8" value="&lt;div&gt;Validação de data valida&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+        <mxCell id="K67NveqVVI4hLh07FeCr-8" value="&lt;div&gt;Verifica se a data é valida&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="150" y="420" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="K67NveqVVI4hLh07FeCr-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K67NveqVVI4hLh07FeCr-10" target="K67NveqVVI4hLh07FeCr-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K67NveqVVI4hLh07FeCr-21" value="Validação" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-20" vertex="1" connectable="0">
+        <mxCell id="K67NveqVVI4hLh07FeCr-21" value="Status de cadastro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-20" vertex="1" connectable="0">
           <mxGeometry x="0.037" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -56,7 +56,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K67NveqVVI4hLh07FeCr-25" value="Data e hora para o alarme&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;+&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Nome do alarme&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-23" vertex="1" connectable="0">
+        <mxCell id="K67NveqVVI4hLh07FeCr-25" value="&lt;span style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;Data&lt;/span&gt;&lt;div style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;+&lt;/div&gt;&lt;div style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;Nome do alarme&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-23" vertex="1" connectable="0">
           <mxGeometry x="0.0583" y="-1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -85,7 +85,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xo0U9j4_L9wXoekrkRcN" name="Executando o alarme">
-    <mxGraphModel dx="946" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,7 +117,7 @@
         <mxCell id="SPjH0spsONiC9Ypb8dV_-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SPjH0spsONiC9Ypb8dV_-5" target="SPjH0spsONiC9Ypb8dV_-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SPjH0spsONiC9Ypb8dV_-17" value="Datas de alarmes&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Validação&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SPjH0spsONiC9Ypb8dV_-11" vertex="1" connectable="0">
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-17" value="Datas de alarmes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SPjH0spsONiC9Ypb8dV_-11" vertex="1" connectable="0">
           <mxGeometry x="-0.0721" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -161,16 +161,16 @@
         <mxCell id="SPjH0spsONiC9Ypb8dV_-19" value="Alarmes ativados" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" parent="1" vertex="1">
           <mxGeometry x="720" y="585" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g6W-brUlYQ89yzePh71a-1" value="&lt;div&gt;Exibe na Tela&lt;br&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="g6W-brUlYQ89yzePh71a-1" value="&lt;div&gt;Exibe na Tela&lt;br&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="480" y="120" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="g6W-brUlYQ89yzePh71a-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="SPjH0spsONiC9Ypb8dV_-10" target="g6W-brUlYQ89yzePh71a-1">
+        <mxCell id="g6W-brUlYQ89yzePh71a-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="SPjH0spsONiC9Ypb8dV_-10" target="g6W-brUlYQ89yzePh71a-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="350" as="sourcePoint" />
             <mxPoint x="610" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g6W-brUlYQ89yzePh71a-4" value="Validação" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g6W-brUlYQ89yzePh71a-3">
+        <mxCell id="g6W-brUlYQ89yzePh71a-4" value="Status de ativação" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="g6W-brUlYQ89yzePh71a-3" vertex="1" connectable="0">
           <mxGeometry x="0.0667" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -257,7 +257,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="W-w9LZEZmVf8xCreWQem" name="Criptografia de dados">
-    <mxGraphModel dx="946" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

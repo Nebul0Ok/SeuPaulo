@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="5">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2" pages="5">
   <diagram name="Login Administrador" id="8t-GfxPKP7F32RpMDhwG">
     <mxGraphModel dx="1114" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,7 +214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aAeTQ5mpyKLMenT3urr8" name="Exclui o cadastro do sensor">
-    <mxGraphModel dx="727" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -269,7 +269,7 @@
         <mxCell id="KHHCVuHAL7rqkIBYgPp2-17" value="&lt;div&gt;Exclui o cadastro do sensor&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="510" y="485" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KHHCVuHAL7rqkIBYgPp2-20" value="Administrador confirma a exclusão" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+        <mxCell id="KHHCVuHAL7rqkIBYgPp2-20" value="Confirmar Exclusõ" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="355" y="200" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="KHHCVuHAL7rqkIBYgPp2-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="KHHCVuHAL7rqkIBYgPp2-6" target="KHHCVuHAL7rqkIBYgPp2-20" edge="1">
@@ -292,7 +292,7 @@
             <mxPoint x="500" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KHHCVuHAL7rqkIBYgPp2-30" value="Dados do &lt;br&gt;sensor encontrado&lt;br&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251); font-size: 12px;&quot;&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Decisão do &lt;br&gt;administrador&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KHHCVuHAL7rqkIBYgPp2-24" vertex="1" connectable="0">
+        <mxCell id="KHHCVuHAL7rqkIBYgPp2-30" value="Dados do &lt;br&gt;sensor encontrado&lt;br&gt;&lt;div style=&quot;background-color: rgb(251, 251, 251); font-size: 12px;&quot;&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Confirma Exclusão&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KHHCVuHAL7rqkIBYgPp2-24" vertex="1" connectable="0">
           <mxGeometry x="-0.1841" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -340,7 +340,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="obSTzpGifZDZGyPt_eiY-2" value="Decisão do administrador" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="obSTzpGifZDZGyPt_eiY-1" vertex="1" connectable="0">
+        <mxCell id="obSTzpGifZDZGyPt_eiY-2" value="Confirma Exclusão" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="obSTzpGifZDZGyPt_eiY-1" vertex="1" connectable="0">
           <mxGeometry x="0.1718" relative="1" as="geometry">
             <mxPoint x="-17" y="-15" as="offset" />
           </mxGeometry>
@@ -349,7 +349,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bqpBV5sqWCDCTLpnGUBm" name="Cadastra tipo de planta">
-    <mxGraphModel dx="1026" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -392,7 +392,7 @@
             <mxPoint x="750" y="345" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w-yzIB3xPvttolnGWHZa-10" value="Confirmação de cadastro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="w-yzIB3xPvttolnGWHZa-9" vertex="1" connectable="0">
+        <mxCell id="w-yzIB3xPvttolnGWHZa-10" value="Confirmação de Exclusão" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="w-yzIB3xPvttolnGWHZa-9" vertex="1" connectable="0">
           <mxGeometry x="0.0455" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -443,7 +443,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZjKNzFvUE-SH0C7QNxlH" name="Exclui tipo de planta">
-    <mxGraphModel dx="601" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
