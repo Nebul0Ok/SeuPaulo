@@ -42,6 +42,15 @@ O software dispõe de diversos pilares fundamentais da segurança estruturado no
 * Não Repúdio;
 
 
+## Principais tecnologias utilizadas:
+
+* Netbeans
+
+* Word
+
+* Excel
+
+* Visual Studio Code
 
 ## Notas -
 
