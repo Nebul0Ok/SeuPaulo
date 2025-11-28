@@ -54,7 +54,7 @@ O software dispõe de diversos pilares fundamentais da segurança estruturado no
 
 ## Integrantes da Equipe -
 * Marjorye P. Picanço (Front-End)
-* Yuri Zamboli (Back-End)
+* Yuri Zamboli Corrêa (Back-End)
 * João Gustavo dos Santos (Back-End e Documentação)
 
 ## Notas -
