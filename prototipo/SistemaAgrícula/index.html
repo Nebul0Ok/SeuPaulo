@@ -1,0 +1,363 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sistema de Gestão agrícula — Demo</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Tela de Login -->
+  <section id="loginPage" class="auth-page active" style="background-image: url('assets/fazendaimg.jpg')">
+    <div class="auth-container">
+      <div class="auth-box">
+        <div class="auth-logo">🌿</div>
+        <h1>AgroSmart</h1>
+        <p>Sistema de Gestão Agrícola</p>
+        <form onsubmit="handleLogin(event)">
+          <input type="email" id="loginEmail" placeholder="E-mail" required>
+          <input type="password" id="loginPassword" placeholder="Senha" required>
+          <button type="submit" class="btn-auth primary">Login 🌿</button>
+        </form>
+        <p class="auth-switch">Não tem conta? <a onclick="goToSignup()">Cadastre-se</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tela de Cadastro -->
+  <section id="signupPage" class="auth-page" style="background-image: url('assets/fazendeiroimg.jpg')">
+    <div class="auth-container">
+      <div class="auth-box">
+        <div class="auth-logo">🌱</div>
+        <h1>AgroSmart</h1>
+        <p>Crie sua conta</p>
+        <form onsubmit="handleSignup(event)">
+          <input type="text" id="signupName" placeholder="Nome Completo" required>
+          <input type="email" id="signupEmail" placeholder="E-mail" required>
+          <input type="password" id="signupPassword" placeholder="Senha" required>
+          <input type="password" id="signupPasswordConfirm" placeholder="Confirmar Senha" required>
+          <button type="submit" class="btn-auth primary">Cadastrar 🌱</button>
+        </form>
+        <p class="auth-switch">Já tem conta? <a onclick="goToLogin()">Entre aqui</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Principal -->
+  <div id="appContainer" style="display:none">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo">🌿</div>
+      <div class="brand-text">
+        <strong>Sistema de</strong>
+        <small>Gestão Agrícola</small>
+      </div>
+    </div>
+    <nav class="menu">
+      <a class="active" data-page="dashboard">Home</a>
+      <a data-page="lotes">Lotes</a>
+      <a data-page="plantas">Plantas</a>
+      <a data-page="relatorios">Relatórios</a>
+      <a data-page="notificacoes">Notificações<span id="notificationBadge" class="notification-badge"></span></a>
+    </nav>
+    <div class="account">
+      <a data-page="perfil">Perfil</a>
+      <a data-page="config">Configurações</a>
+      <a data-page="sobre">Sobre Nós</a>
+    </div>
+  </aside>
+
+  <header class="topbar">
+    <button id="menuToggle" class="menu-toggle">☰</button>
+    <div class="page-title" id="pageTitle">Home</div>
+    <div class="spacer"></div>
+    <div class="actions">Bem-vindo, Seu Paulo!</div>
+  </header>
+
+  <main class="content">
+    
+    <section id="dashboard" class="page active">
+      <h1>Bem-vindo, Seu Paulo!</h1>
+      <p class="subtitle">Gerencie suas plantações e acompanhe o progresso da fazenda</p>
+      <div class="cards-row">
+        <div class="card info">
+          <div class="card-title">Temperatura</div>
+          <div class="card-large">24°C 🌡</div>
+          <div class="muted">Condição: Ensolarado</div>
+        </div>
+        <div class="card info">
+          <div class="card-title">Umidade</div>
+          <div class="card-large">Normal ☁︎</div>
+          <div class="muted">Ambiente equilibrado</div>
+        </div>
+        <div class="card info">
+          <div class="card-title">Estação</div>
+          <div class="card-large">Outono 🍂</div>
+          <div class="muted">Estação atual</div>
+        </div>
+        <div class="card info">
+          <div class="card-title">Data</div>
+          <div class="card-large">Segunda-Feira 📆</div>
+          <div class="muted">24 de Novembro de 2025</div>
+        </div>
+      </div>
+
+      <div class="stats-row">
+        <div class="card stat"><strong id="totalLotes">0</strong><div class="muted">Total de Lotes</div></div>
+        <div class="card stat"><strong id="plantasAtivas">0</strong><div class="muted">Plantas Ativas</div></div>
+        <div class="card stat"><strong id="colheitasProximas">0</strong><div class="muted">Colheitas Próximas</div></div>
+      </div>
+
+      <h2 style="margin-top:30px">Colheitas Próximas</h2>
+      <div id="colheitasContainer" class="items-container">
+        <div class="card big empty">
+          <div class="empty-text">Nenhuma colheita próxima</div>
+        </div>
+      </div>
+
+      <h2 style="margin-top:30px">Atividades Recentes</h2>
+      <div id="atividadesContainer" class="items-container">
+        <div class="card big empty">
+          <div class="empty-text">Nenhuma atividade recente</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="lotes" class="page">
+      <h1>Gerenciamento de Lotes ⛰️</h1>
+      <p class="subtitle">Organize e gerencie os lotes da sua fazenda</p>
+      <button class="btn primary" onclick="openLoteModal()">+ Adicionar Lote</button>
+      <div id="lotesContainer" class="items-container">
+        <div class="card big empty">
+          <div class="empty-text">Nenhum lote cadastrado</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="plantas" class="page">
+      <h1>Gerenciamento de Plantas  🌱</h1>
+      <p class="subtitle">Cadastre e acompanhe suas plantações</p>
+      <button class="btn primary" onclick="openPlantaModal()">+ Adicionar Planta</button>
+      <div id="plantasContainer" class="items-container">
+        <div class="card big empty">
+          <div class="empty-text">Nenhuma planta cadastrada</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="relatorios" class="page">
+      <h1>Relatórios</h1>
+      <p class="subtitle">Visualize e exporte dados das suas plantações</p>
+      <div class="filters-row">
+        <div class="filter-group">
+          <label>Status da Plantação</label>
+          <select id="filterStatus" onchange="updateRelatorios()">
+            <option value="">Todos</option>
+            <option value="plantada">Plantada</option>
+            <option value="colheita-proxima">Colheita Próxima</option>
+            <option value="pronta-colheita">Pronta para Colheita</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Estação</label>
+          <select id="filterEstacao" onchange="updateRelatorios()">
+            <option value="">Todas</option>
+            <option value="primavera">Primavera</option>
+            <option value="verao">Verão</option>
+            <option value="outono">Outono</option>
+            <option value="inverno">Inverno</option>
+          </select>
+        </div>
+      </div>
+      <div id="relatoriosContainer" class="relatorios-table-container">
+        <div class="card big empty">
+          <div class="empty-text">Nenhum resultado encontrado</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="notificacoes" class="page">
+      <h1>Notificações 🕭</h1>
+      <p class="subtitle">Acompanhe alertas e atualizações sobre suas plantações</p>
+      <div id="notificacoesContainer" class="notificacoes-container">
+        <div class="card big empty">
+          <div class="empty-text">Nenhuma notificação</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="perfil" class="page">
+      <h1>Perfil</h1>
+      <p class="subtitle">Gerencie suas informações pessoais</p>
+      <div class="profile-grid">
+        <div class="card profile-left">
+          <div class="avatar-wrapper">
+            <div id="avatarPreview" class="avatar">SP</div>
+            <div class="avatar-actions">
+              <label class="btn" for="avatarInput">Escolher Foto</label>
+              <button class="btn" id="removeAvatarBtn" type="button">Remover</button>
+            </div>
+            <input id="avatarInput" type="file" accept="image/*" style="display:none">
+          </div>
+        </div>
+        <div class="card profile-right">
+          <h3>Informações Pessoais</h3>
+          <form id="profileForm" onsubmit="saveProfile(event)">
+            <div class="form-row"><label>Nome Completo</label><input id="profileName" placeholder="Seu Paulo" required></div>
+            <div class="form-row"><label>E-mail</label><input id="profileEmail" type="email" placeholder="seu@example.com"></div>
+            <div class="form-row"><label>Telefone</label><input id="profilePhone" placeholder="(00) 00000-0000"></div>
+            <div class="form-row"><label>Endereço</label><input id="profileAddress" placeholder="Endereço"></div>
+            <div class="form-actions" style="margin-top:12px">
+              <button type="button" class="btn" onclick="loadProfile()">Cancelar</button>
+              <button type="submit" class="btn primary">Salvar Perfil ⎙</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="config" class="page">
+      <h1>Configurações</h1>
+      <p class="subtitle">Personalize sua experiência no sistema</p>
+      <div class="card">
+        <h3>Notificações</h3>
+        <div class="toggle-row"><label>Email</label>
+          <label class="toggle">
+            <input id="notifyEmail" type="checkbox">
+            <span class="knob"></span>
+          </label>
+        </div>
+        <div class="toggle-row"><label>Push</label>
+          <label class="toggle">
+            <input id="notifyPush" type="checkbox">
+            <span class="knob"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Preferências</h3>
+        <label>Unidade de Temperatura</label>
+        <select><option>Celsius (°C)</option><option>Fahrenheit (°F)</option></select>
+      </div>
+
+      <div class="card">
+        <h3>Aparência</h3>
+        <label>Tema</label>
+        <select id="themeSelect"><option value="light">Claro</option><option value="dark">Escuro</option></select>
+      </div>
+    </section>
+
+    <section id="sobre" class="page">
+      <h1>Sobre Nós 🌱'</h1>
+      <p class="subtitle">Conheça nossa equipe e missão </p>
+      <div class="card about">
+        <h3>Sobre o Projeto AgroSmart</h3>
+        <p>O AgroSmart é um sistema de gerenciamento agrícola completo e inteligente, desenvolvido para modernizar e otimizar a gestão de propriedades rurais de todos os portes.</p>
+        <p>Nascido da necessidade de integrar tecnologia ao campo, nossa plataforma oferece ferramentas robustas para controle de plantio. Com o AgroSmart, você transforma dados em decisões estratégicas, aumentando a produtividade, reduzindo custos e garantindo a rastreabilidade de sua produção. Nosso objetivo é simplificar a sua rotina, tornando a agricultura mais eficiente, lucrativa e sustentável.</p>
+      </div>
+
+      <h2 style="margin-top:30px">Nossa Equipe 🌱</h2>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="assets/marjo.jpg" alt="Marjorye" class="team-photo">
+          <h3>Marjorye</h3>
+          <p class="team-role">Front-End</p>
+        </div>
+        <div class="team-card">
+          <img src="assets/yuri.png" alt="Yuri" class="team-photo">
+          <h3>Yuri</h3>
+          <p class="team-role">Back-End</p>
+        </div>
+        <div class="team-card">
+          <img src="assets/jão.png" alt="João Gustavo" class="team-photo">
+          <h3>João Gustavo</h3>
+          <p class="team-role">Back-End e Documentação</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal dos Lotes -->
+  <div id="loteModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Adicionar Lote</h2>
+        <button class="close-btn" onclick="closeLoteModal()">&times;</button>
+      </div>
+      <form id="loteForm" onsubmit="saveLote(event)">
+        <div class="form-row">
+          <label>Nome do Lote *</label>
+          <input type="text" id="loteName" required placeholder="Ex: Lote A">
+        </div>
+        <div class="form-row">
+          <label>Área (hectares) *</label>
+          <input type="number" id="loteArea" required placeholder="Ex: 2.5" step="0.1">
+        </div>
+        <div class="form-row">
+          <label>Localização</label>
+          <input type="text" id="loteLocal" placeholder="Ex: Setor norte">
+        </div>
+        <div class="form-row">
+          <label>Data de Criação *</label>
+          <input type="date" id="loteDateCreated" required>
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn" onclick="closeLoteModal()">Cancelar</button>
+          <button type="submit" class="btn primary">Salvar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal das Plantas -->
+  <div id="plantaModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Adicionar Planta</h2>
+        <button class="close-btn" onclick="closePlantaModal()">&times;</button>
+      </div>
+      <form id="plantaForm" onsubmit="savePlanta(event)">
+        <div class="form-row">
+          <label>Nome da Planta *</label>
+          <input type="text" id="plantaName" required placeholder="Ex: Milho">
+        </div>
+        <div class="form-row">
+          <label>Tipo/Variedade *</label>
+          <input type="text" id="plantaType" required placeholder="Ex: Milho Amarelo">
+        </div>
+        <div class="form-row">
+          <label>Lote *</label>
+          <select id="plantaLote" required></select>
+        </div>
+        <div class="form-row">
+          <label>Data de Plantio *</label>
+          <input type="date" id="plantaDataPlantio" required>
+        </div>
+        <div class="form-row">
+          <label>Data Estimada de Colheita *</label>
+          <input type="date" id="plantaDataColheita" required>
+        </div>
+        <div class="form-row">
+          <label>Status *</label>
+          <select id="plantaStatus" required>
+            <option value="ativo">Ativo</option>
+            <option value="inativo">Inativo</option>
+            <option value="colhido">Colhido</option>
+          </select>
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn" onclick="closePlantaModal()">Cancelar</button>
+          <button type="submit" class="btn primary">Salvar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
