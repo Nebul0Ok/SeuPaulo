@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2" pages="4">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="4">
   <diagram id="liEGJvGUugNppEwG3qm9" name="Criação de Alarme">
     <mxGraphModel dx="1354" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xo0U9j4_L9wXoekrkRcN" name="Executando o alarme">
-    <mxGraphModel dx="1354" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="872" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,16 +103,15 @@
         <mxCell id="SPjH0spsONiC9Ypb8dV_-1" value="&lt;div&gt;Recebe a data dos alarmes&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="200" y="120" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="SPjH0spsONiC9Ypb8dV_-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SPjH0spsONiC9Ypb8dV_-2" target="SPjH0spsONiC9Ypb8dV_-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8rhX7gpVoDAzb9PNQnUy-1" target="SPjH0spsONiC9Ypb8dV_-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="92.5" y="70" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="SPjH0spsONiC9Ypb8dV_-4" value="Datas de alarmes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SPjH0spsONiC9Ypb8dV_-3" vertex="1" connectable="0">
           <mxGeometry x="-0.0042" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="SPjH0spsONiC9Ypb8dV_-2" value="Alarmes" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" parent="1" vertex="1">
-          <mxGeometry x="20" y="40" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SPjH0spsONiC9Ypb8dV_-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SPjH0spsONiC9Ypb8dV_-5" target="SPjH0spsONiC9Ypb8dV_-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -175,11 +174,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8rhX7gpVoDAzb9PNQnUy-1" value="Usuário" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="100" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="HJ5SzqpMAHVIriYFqrIs" name="Backup dos dados">
-    <mxGraphModel dx="946" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="872" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -257,7 +259,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="W-w9LZEZmVf8xCreWQem" name="Criptografia de dados">
-    <mxGraphModel dx="1354" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="872" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
