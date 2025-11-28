@@ -1,14 +1,11 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="6">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2" pages="6">
   <diagram id="wKSva4pFTCmVT_XZiWMP" name="Cadastro de Usuário">
-    <mxGraphModel dx="1246" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yxdFnS6Y9Gd5swbTPmlM-1" value="Usuário" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="120" y="40" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="yPFOHVNhzhnwtiyZpGYh-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yxdFnS6Y9Gd5swbTPmlM-2" target="yxdFnS6Y9Gd5swbTPmlM-12">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yxdFnS6Y9Gd5swbTPmlM-2" value="&lt;div&gt;3&lt;/div&gt;&lt;div&gt;Cadastrar Usuários&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="180" y="90" width="510" height="510" as="geometry" />
@@ -467,7 +464,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YxXJWJ4RDEHHSsKgyJu8" name="Agendar Irrigação">
-    <mxGraphModel dx="1026" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
