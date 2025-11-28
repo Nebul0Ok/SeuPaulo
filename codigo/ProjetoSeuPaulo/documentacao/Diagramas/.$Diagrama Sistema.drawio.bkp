@@ -1,0 +1,329 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="4">
+  <diagram id="liEGJvGUugNppEwG3qm9" name="Criação de Alarme">
+    <mxGraphModel dx="946" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K67NveqVVI4hLh07FeCr-2" value="Usuário" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-4" value="1&lt;div&gt;Criação de Alertas&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="100" y="50" width="620" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K67NveqVVI4hLh07FeCr-5" target="K67NveqVVI4hLh07FeCr-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-14" value="Data e hora para o alarme&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;+&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Nome do alarme&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-9" vertex="1" connectable="0">
+          <mxGeometry x="0.0745" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-5" value="&lt;div&gt;Recebe os dados do alarme&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="150" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K67NveqVVI4hLh07FeCr-2" target="K67NveqVVI4hLh07FeCr-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-7" value="Data e hora para o alarme&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Nome do alarme&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="K67NveqVVI4hLh07FeCr-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.0082" y="3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K67NveqVVI4hLh07FeCr-8" target="K67NveqVVI4hLh07FeCr-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-18" value="Data e hora para o alarme&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;+&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Nome do alarme&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;+&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Validação&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.0917" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-8" value="&lt;div&gt;Validação de data valida&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="150" y="420" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K67NveqVVI4hLh07FeCr-10" target="K67NveqVVI4hLh07FeCr-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-21" value="Validação" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-20" vertex="1" connectable="0">
+          <mxGeometry x="0.037" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K67NveqVVI4hLh07FeCr-10" target="K67NveqVVI4hLh07FeCr-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-24" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.0003" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-25" value="Data e hora para o alarme&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;+&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Nome do alarme&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-23" vertex="1" connectable="0">
+          <mxGeometry x="0.0583" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-10" value="&lt;div&gt;Cria o alarme&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="520" y="420" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K67NveqVVI4hLh07FeCr-15" target="K67NveqVVI4hLh07FeCr-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-17" value="Padrão de datas" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K67NveqVVI4hLh07FeCr-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.0277" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-15" value="Datas" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="630" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-19" value="&lt;div&gt;Demonstra na tela uma mensagem de confirmação&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="520" y="155" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="K67NveqVVI4hLh07FeCr-22" value="Alarmes" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" parent="1" vertex="1">
+          <mxGeometry x="690" y="640" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Xo0U9j4_L9wXoekrkRcN" name="Executando o alarme">
+    <mxGraphModel dx="946" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="77fmQoY_J7cwjhd6AGSn-2" value="2&lt;div&gt;Executando o Alarme&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="100" y="50" width="630" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SPjH0spsONiC9Ypb8dV_-1" target="SPjH0spsONiC9Ypb8dV_-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-12" value="Datas de alarmes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SPjH0spsONiC9Ypb8dV_-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.1576" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-1" value="&lt;div&gt;Recebe a data dos alarmes&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="200" y="120" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SPjH0spsONiC9Ypb8dV_-2" target="SPjH0spsONiC9Ypb8dV_-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-4" value="Datas de alarmes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SPjH0spsONiC9Ypb8dV_-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.0042" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-2" value="Alarmes" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SPjH0spsONiC9Ypb8dV_-5" target="SPjH0spsONiC9Ypb8dV_-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-17" value="Datas de alarmes&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Validação&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SPjH0spsONiC9Ypb8dV_-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.0721" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-5" value="&lt;div&gt;Verifica se a data e o horario atual batem&lt;br&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="330" y="540" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SPjH0spsONiC9Ypb8dV_-7" target="SPjH0spsONiC9Ypb8dV_-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-16" value="Datas de alarmes&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Tempo atual&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SPjH0spsONiC9Ypb8dV_-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0401" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-7" value="&lt;div&gt;Obtem a data atual&lt;br&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="120" y="370" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SPjH0spsONiC9Ypb8dV_-10" target="SPjH0spsONiC9Ypb8dV_-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-21" value="Data de alarme" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SPjH0spsONiC9Ypb8dV_-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.1149" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-10" value="&lt;div&gt;Ativa alarme&lt;br&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="560" y="370" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SPjH0spsONiC9Ypb8dV_-13" target="SPjH0spsONiC9Ypb8dV_-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-15" value="Tempo atual" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SPjH0spsONiC9Ypb8dV_-14" vertex="1" connectable="0">
+          <mxGeometry x="0.0484" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-13" value="Relogio" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" parent="1" vertex="1">
+          <mxGeometry y="570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPjH0spsONiC9Ypb8dV_-19" value="Alarmes ativados" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" parent="1" vertex="1">
+          <mxGeometry x="720" y="585" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g6W-brUlYQ89yzePh71a-1" value="&lt;div&gt;Exibe na Tela&lt;br&gt;&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="g6W-brUlYQ89yzePh71a-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="SPjH0spsONiC9Ypb8dV_-10" target="g6W-brUlYQ89yzePh71a-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="350" as="sourcePoint" />
+            <mxPoint x="610" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g6W-brUlYQ89yzePh71a-4" value="Validação" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g6W-brUlYQ89yzePh71a-3">
+          <mxGeometry x="0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HJ5SzqpMAHVIriYFqrIs" name="Backup dos dados">
+    <mxGraphModel dx="946" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dRtzXSwsWwr55gdJF-Ud-1" value="Sistema" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dRtzXSwsWwr55gdJF-Ud-2" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="140" y="10" width="564" height="564" as="geometry" />
+        </mxCell>
+        <mxCell id="AWuDoVbrQ0jovj_aS6xo-1" value="Recebe os dados que irão ser salvos em backup" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="220" y="100" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="12AR95Q1U4M2az7Jf5UE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AWuDoVbrQ0jovj_aS6xo-2" target="AWuDoVbrQ0jovj_aS6xo-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12AR95Q1U4M2az7Jf5UE-8" value="Arquivo Comprimido" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12AR95Q1U4M2az7Jf5UE-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.075" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWuDoVbrQ0jovj_aS6xo-2" value="Comprime os arquivos" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="220" y="380" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="12AR95Q1U4M2az7Jf5UE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AWuDoVbrQ0jovj_aS6xo-3" target="AWuDoVbrQ0jovj_aS6xo-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12AR95Q1U4M2az7Jf5UE-9" value="URL do Arquivo Comprimido" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12AR95Q1U4M2az7Jf5UE-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.0353" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWuDoVbrQ0jovj_aS6xo-3" value="Aloca os arquivos&lt;div&gt;comprimidos&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="490" y="380" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AWuDoVbrQ0jovj_aS6xo-4" value="Salva num log o local do arquivo" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="490" y="100" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="12AR95Q1U4M2az7Jf5UE-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="dRtzXSwsWwr55gdJF-Ud-1" target="AWuDoVbrQ0jovj_aS6xo-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="230" as="sourcePoint" />
+            <mxPoint x="110" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12AR95Q1U4M2az7Jf5UE-2" value="Dados do sistema" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12AR95Q1U4M2az7Jf5UE-1" vertex="1" connectable="0">
+          <mxGeometry x="0.0251" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12AR95Q1U4M2az7Jf5UE-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="AWuDoVbrQ0jovj_aS6xo-1" target="AWuDoVbrQ0jovj_aS6xo-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="103" y="60" as="sourcePoint" />
+            <mxPoint x="90" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12AR95Q1U4M2az7Jf5UE-4" value="Dados do sistema" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12AR95Q1U4M2az7Jf5UE-3" vertex="1" connectable="0">
+          <mxGeometry x="0.0251" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12AR95Q1U4M2az7Jf5UE-10" value="Localização dos pacotes de arquivos" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" parent="1" vertex="1">
+          <mxGeometry x="704" y="20" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="12AR95Q1U4M2az7Jf5UE-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="AWuDoVbrQ0jovj_aS6xo-4" target="12AR95Q1U4M2az7Jf5UE-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="103" y="60" as="sourcePoint" />
+            <mxPoint x="237" y="137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12AR95Q1U4M2az7Jf5UE-12" value="URL do Arquivo&lt;div&gt;Comprimido&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12AR95Q1U4M2az7Jf5UE-11" vertex="1" connectable="0">
+          <mxGeometry x="0.0251" y="2" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="W-w9LZEZmVf8xCreWQem" name="Criptografia de dados">
+    <mxGraphModel dx="946" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3PjJ9DlvMx2RWVtHhEAv-1" value="Usuário" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3PjJ9DlvMx2RWVtHhEAv-2" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="80" y="20" width="600" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="3PjJ9DlvMx2RWVtHhEAv-3" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Recebe os dados de&lt;/span&gt;&lt;div style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;cadastro do usuario&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="170" y="100" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3PjJ9DlvMx2RWVtHhEAv-5" value="Aplica uma Hash&lt;div&gt;SHA-256 na senha do usuario&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="320" y="440" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3PjJ9DlvMx2RWVtHhEAv-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="3PjJ9DlvMx2RWVtHhEAv-1" target="3PjJ9DlvMx2RWVtHhEAv-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="350" as="sourcePoint" />
+            <mxPoint x="10" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3PjJ9DlvMx2RWVtHhEAv-7" value="Dados de&lt;div&gt;cadastro do usuario&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3PjJ9DlvMx2RWVtHhEAv-6" vertex="1" connectable="0">
+          <mxGeometry x="0.06" y="2" relative="1" as="geometry">
+            <mxPoint x="-8" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kNrDv0TsN1Gc7-XEocgl-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="3PjJ9DlvMx2RWVtHhEAv-3" target="3PjJ9DlvMx2RWVtHhEAv-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="350" as="sourcePoint" />
+            <mxPoint x="280" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kNrDv0TsN1Gc7-XEocgl-11" value="Dados de&lt;div&gt;cadastro do usuario&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kNrDv0TsN1Gc7-XEocgl-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.0762" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kNrDv0TsN1Gc7-XEocgl-4" value="Grava os dados" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="470" y="100" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kNrDv0TsN1Gc7-XEocgl-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="3PjJ9DlvMx2RWVtHhEAv-5" target="kNrDv0TsN1Gc7-XEocgl-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="400" as="sourcePoint" />
+            <mxPoint x="470" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kNrDv0TsN1Gc7-XEocgl-12" value="Dados de&lt;div&gt;cadastro do usuario&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Hash da senha&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kNrDv0TsN1Gc7-XEocgl-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.0421" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kNrDv0TsN1Gc7-XEocgl-9" value="Usuários Registrados" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" parent="1" vertex="1">
+          <mxGeometry x="690" y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kNrDv0TsN1Gc7-XEocgl-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="kNrDv0TsN1Gc7-XEocgl-4" target="kNrDv0TsN1Gc7-XEocgl-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="630" as="sourcePoint" />
+            <mxPoint x="630" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kNrDv0TsN1Gc7-XEocgl-13" value="Dados de&lt;div&gt;cadastro do usuario&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Hash da senha&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kNrDv0TsN1Gc7-XEocgl-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.0729" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
