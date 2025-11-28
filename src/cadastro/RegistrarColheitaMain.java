@@ -8,7 +8,6 @@ import Models.ColheitaDados;
 
 /**
  * Classe responsável por registrar informações de colheita no sistema.
- * Segue o mesmo padrão estruturado do CadastroUsuarioMain.
  * @author ecoz
  */
 public class RegistrarColheitaMain {

@@ -6,6 +6,7 @@ package Teste;
 
 
 import Models.ColheitaDados;
+import cadastro.RegistrarColheitaMain;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -37,7 +38,7 @@ public class ColheitaTeste {
     }
 
     /**
-     * ID do lote inválido (zero ou negativo).
+     *Teste do ID do lote inválido (zero ou negativo).
      */
     @Test(expected = IllegalArgumentException.class)
     public void erroIdLoteInvalido() {
@@ -50,7 +51,7 @@ public class ColheitaTeste {
     }
 
     /**
-     * Data da colheita vazia.
+     * Teste da Data da colheita vazia.
      */
     @Test(expected = IllegalArgumentException.class)
     public void erroDataColheitaVazia() {
@@ -63,7 +64,7 @@ public class ColheitaTeste {
     }
 
     /**
-     * Quantidade menor ou igual a zero.
+     * Teste da Quantidade menor ou igual a zero.
      */
     @Test(expected = IllegalArgumentException.class)
     public void erroQuantidadeInvalida() {
@@ -76,7 +77,7 @@ public class ColheitaTeste {
     }
 
     /**
-     * Responsável não informado.
+     *Teste do Responsável não informado.
      */
     @Test(expected = IllegalArgumentException.class)
     public void erroResponsavelVazio() {
