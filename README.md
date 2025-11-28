@@ -52,6 +52,11 @@ O software dispõe de diversos pilares fundamentais da segurança estruturado no
 
 * Visual Studio Code
 
+## Integrantes da Equipe -
+* Marjorye P. Picanço (Front-End)
+* Yuri Zamboli (Back-End)
+* João Gustavo dos Santos (Back-End e Documentação)
+
 ## Notas -
 
 Este projeto foi realizado pelos alunos Yuri Zamboli, Marjorye P. Picanço e João Gustavo dos Santos como uma atividade para as matérias de Sistema de Informação e Engenharia de Software I, no ano de 2025.
